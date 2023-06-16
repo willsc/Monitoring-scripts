@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# ./disk_usage.3.0.py default  ~/.kube/config disk_usage_out.csv
+
 import subprocess
 import json
 import sys
