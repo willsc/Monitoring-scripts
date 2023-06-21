@@ -21,7 +21,7 @@ def get_pods(namespace, kubeconfig):
     return pods
 
 def get_filesystem_usage(pod_name, container_name):
-    command = f"kubectl exec {pod_name} --container={container_name} -- df -h  /opt || df -h  /kafka || df -h /"
+    command = f"kubectl exec {pod_name} --container={container_name} -- df -h  |grep -i -e '\/opt' -e '\/kafka' -e '\/mnt'"
     output = execute_command(command)
     filesystem_usage = output.strip().split("\n")[-1]
     print(filesystem_usage) 
@@ -33,7 +33,7 @@ def parse_filesystem_usage(usage):
     used = parts[2]
     available = parts[3]
     use_percentage = parts[4]
-    mounted_on = parts[8]
+    mounted_on = parts[5]
     return [size, used, available, use_percentage, mounted_on]
 
 def write_to_csv(data, output_file):

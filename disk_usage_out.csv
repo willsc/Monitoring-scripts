@@ -1,8 +1,8 @@
 Pod,Container,Size,Used,Available,Use Percentage,Mounted On
-clear-nginx-deployment-6499559898-6hdjl,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-6smk5,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-bsnln,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-ftqmj,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-gblct,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-q8wjz,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
-clear-nginx-deployment-6499559898-tdmpc,clear-nginx,1.8Ti,8.4Gi,467Gi,2%,/
+clear-nginx-deployment-6499559898-6hdjl,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-6smk5,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-bsnln,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-ftqmj,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-gblct,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-q8wjz,clear-nginx,740G,158G,546G,23%,/mnt
+clear-nginx-deployment-6499559898-tdmpc,clear-nginx,740G,158G,546G,23%,/mnt
